@@ -29,3 +29,14 @@ menu.innerHTML = `
   <a href="./pages/about.html"><li>Sobre o Curso Técnico</li></a>
   </ul>
   </div>`;
+
+//
+//
+//
+
+let link = document.createElement("link");
+link.rel = "icon";
+link.type = "image/png";
+link.href = "./images/favicon.png";
+
+document.head.appendChild(link);
