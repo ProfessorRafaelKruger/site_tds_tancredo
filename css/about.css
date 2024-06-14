@@ -1,0 +1,81 @@
+@import url("./default.css");
+
+main {
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(1, 20, 35);
+}
+
+.main_sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  max-width: 900px;
+  padding: 35px;
+  margin: 25px 0;
+  background-color: rgb(7, 44, 78);
+  color: white;
+  border-radius: 25px;
+}
+
+.main_sections h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.main_sections h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main_sections ul {
+  width: fit-content;
+}
+
+.main_sections li,
+.main_sections a {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.main_sections li {
+  text-align: justify;
+}
+
+.main_sections a {
+  color: white;
+}
+.main_sections a:hover {
+  color: rgb(176, 176, 176);
+}
+
+@media (max-width: 768px) {
+  .main_sections h3 {
+    font-size: 21px;
+  }
+  .main_sections h4 {
+    font-size: 19px;
+  }
+  .main_sections li,
+  .main_sections a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 430px) {
+  .main_sections h3 {
+    font-size: 20px;
+  }
+  .main_sections h4 {
+    font-size: 18px;
+  }
+  .main_sections li,
+  .main_sections a {
+    font-size: 16px;
+  }
+}

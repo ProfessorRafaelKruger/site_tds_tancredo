@@ -1,0 +1,84 @@
+@import url("./default.css");
+
+main {
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+#main_tools {
+  background: linear-gradient(
+    to bottom,
+    rgb(1, 20, 35) 0%,
+    rgb(29, 84, 133) 0.7%,
+    rgb(29, 84, 133) 99.3%,
+    rgb(1, 20, 35) 100%
+  );
+}
+#main_videosYT {
+  background: linear-gradient(
+    to bottom,
+    rgb(1, 20, 35) 0%,
+    rgb(29, 84, 133) 3%,
+    rgb(29, 84, 133) 97%,
+    rgb(1, 20, 35) 100%
+  );
+}
+.tool_link,
+.videoYT_link {
+  text-decoration: none;
+}
+
+.tool_inner,
+.videoYT_inner {
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(1, 20, 35);
+  border-radius: 20px;
+}
+.tool_inner {
+  margin: 25px 0px;
+}
+.videoYT_inner {
+  margin: 12.5px 0px;
+}
+.tool_inner:hover,
+.videoYT_inner:hover {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.tool_title,
+.videoYT_title {
+  padding: 20px 44px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 1100px) {
+  .tool_inner,
+  .videoYT_inner {
+    width: 55vw;
+  }
+}
+@media (max-width: 900px) {
+  .tool_inner,
+  .videoYT_inner {
+    width: 67.5vw;
+  }
+}
+@media (max-width: 700px) {
+  .tool_inner,
+  .videoYT_inner {
+    width: 80vw;
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .tool_inner,
+  .videoYT_inner {
+    width: 90vw;
+  }
+}
