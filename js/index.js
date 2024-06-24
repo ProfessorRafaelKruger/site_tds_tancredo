@@ -26,6 +26,7 @@ menu.innerHTML = `
   <!-- <a href="./pages/projects.html"><li>Projetos para Portfólio</li></a> -->
   <!-- <a href="./pages/practice.html"><li>Praticar/Codar</li></a> -->
   <!-- <a href="./pages/documentations.html"><li>Conteúdos/Documentação</li></a> -->
+  <a href="./pages/events.html"><li>Eventos | Visitas | Palestras</li></a>
   <a href="./pages/about.html"><li>Sobre o Curso Técnico</li></a>
   </ul>
   </div>`;
